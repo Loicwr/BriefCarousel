@@ -1,3 +1,12 @@
+.btn-grp {
+  display: flex;
+  width: 300px;
+  height: 50px;
+}
+.btn-grp .btn-next {
+  justify-content: flex-end;
+}
+
 h1 {
   text-align: center;
 }
@@ -5,6 +14,7 @@ h1 {
 .carousel {
   display: flex;
   justify-content: center;
+  padding-top: 50px;
   position: relative;
 }
 
