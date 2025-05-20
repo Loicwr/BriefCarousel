@@ -1,4 +1,10 @@
+h1 {
+  text-align: center;
+}
+
 .carousel {
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 
