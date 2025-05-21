@@ -1,9 +1,5 @@
 
-let images = ["Carousel1.jpg","Carousel2.jpg","Carousel3.jpg","Carousel4.jpg","Carousel5.jpg"];
-let current = 0;
-let carousel = document.getElementsByClassName("carousel");
-let boutonNext = document.getElementById("next");
-let boutonPrev = document.getElementById("prev")
+let pictures = ["./assets/Carousel1.jpg", "./assets/Carousel2.jpg", "./assets/Carousel3.jpg", "./assets/Carousel4.jpg", "./assets/Carousel5.jpg"];
+let carousel = document.getElementById("carousel");
+let currentIndex = 0;
 
-
-document.getElementById("")
