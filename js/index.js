@@ -3,3 +3,10 @@ let pictures = ["./assets/Carousel1.jpg", "./assets/Carousel2.jpg", "./assets/Ca
 let carousel = document.getElementById("carousel");
 let currentIndex = 0;
 
+for ( let i = 0; i < pictures.length; i++){
+    let li = document.createElement(" li ");
+    let img = document.createElement(" img ");
+    img.src = pictures[i];
+    img.alt = `image ${ i + 1 }`;
+    img.classList.add(" img-carousel ")
+}
