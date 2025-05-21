@@ -1,38 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>carousel</title>
+    <title>carousel d'images</title>
     <link rel="stylesheet" href="sass/main.css">
 </head>
 <body>
     <main>
-        <h1>Voici mon carrousel</h1>
-            <div class="btn-grp">
-                <button class="btn" id="prev">Précédent</button>
-                <button class="btn" id="next">Suivant</button>
+        <header>
+            <h1>Voici mon carrousel</h1>
+        </header>
+
+        <section aria-label="carrousel d'images"></section>
+            <div class="btn-grp" role="group" aria-label="Contrôles du carrousel">
+                <button class="btn" id="prev" aria-label="images Précédente" >Précédent</button>
+                <button class="btn" id="next" aria-label="images Suivante" >Suivant</button>
             </div>
-            <ul class="carousel">
-                <li>
-                    <img class="img-carousel" id="img1" src="./assets/Carousel1.jpg" alt="Cheval brun d'un carrousel">
-                </li>
-                <li>
-                    <img class="img-carousel" id="img2" src="./assets/Carousel2.jpg" alt="Cheval bleu d'un carrousel">
-                </li>
-                <li>
-                    <img class="img-carousel" id="img3" src="./assets/Carousel3.jpg" alt="Une vue sur un carrousel et une grand roue">
-                </li>
-                <li>
-                    <img class="img-carousel" id="img4" src="./assets/Carousel4.jpg" alt="Un manége de chaise volante">
-                </li>
-                <li>
-                    <img class="img-carousel" id="img5" src="./assets/Carousel5.jpg" alt="Cheval blanc d'un carrousel">
-                </li>
-            </ul>
+        </section>
     </main>
     <script src="./js/index.js"></script>
-
-
 </body>
 </html>
