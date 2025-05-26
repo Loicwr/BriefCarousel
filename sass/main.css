@@ -1,0 +1,18 @@
+.btn-grp {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  position: relative;
+}
+
+li {
+  position: absolute;
+}/*# sourceMappingURL=main.css.map */
